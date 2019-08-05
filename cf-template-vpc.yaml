@@ -160,7 +160,7 @@ Resources:
       Tags:
       - Key: Name
         Value:
-          Fn::Sub: "${AWS::StackName}-publiz-az1"
+          Fn::Sub: "${AWS::StackName}-public-az1"
 
   PublicSubnet2:
     Type: AWS::EC2::Subnet
